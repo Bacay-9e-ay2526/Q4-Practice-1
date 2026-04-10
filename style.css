@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container card */
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 320px;
+}
+
+/* Title */
+h1 {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Input */
+input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4facfe;
+}
+
+/* Status text */
+#Ans {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Buttons */
+button {
+    margin: 10px 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Verify button */
+button:first-of-type {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Refresh button */
+button:last-of-type {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Hover effect */
+button:hover {
+    opacity: 0.8;
+}
+  
